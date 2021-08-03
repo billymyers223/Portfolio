@@ -94,14 +94,50 @@ section{
 h3{
     font-size: 2rem;
     padding-top: 20px;
+    padding-bottom: 20px;
 }
 .one{
     display: flex;
-    justify-content: center;
+    justify-content: first baseline;
+    align-items: center;
     background-color: #2E4756;
     border-radius: 10px;
     width: 25%;
     box-shadow: #000000d7 7px 7px;
+    flex-direction: column;
+}
+.one img{
+    display: flex;
+    border: white solid 10px;
+    border-radius: 10px;
+    height: 30vh;
+    width: 80%;
+}
+.one p {
+    padding-top: 20px;
+    text-align: center;
+    width: 80%;
+    font-weight: 600;
+    padding-bottom: 40px;
+}
+
+.one a{
+    border: white solid 2px;
+    background-color: black;
+    text-decoration: none;
+    transition: .5s;
+    width: 25%;
+    height: 4vh;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.one a:hover{
+    background-color: white;
+    border: black solid 2px;
+    color:black;
 }
 .two{
     display: flex;
